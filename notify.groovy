@@ -2,7 +2,7 @@
 
 package com.kajeet.jenkins
 
-def sentinelNotify(result, message) {
+def firstNotify(result, message) {
         def webhookUrl = 'https://outlook.office.com/webhook/xxxxxxxx'
         def color = '#0000FF' // blue
 
